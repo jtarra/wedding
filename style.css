@@ -6,16 +6,25 @@ body {
 }
 
 .top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  padding: 18px;
+  gap: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  padding: 14px 16px;
+  background: rgba(232, 141, 157, 0.95);
   border-bottom: 1px solid #ded3c3;
 }
 
 .top-nav a {
+  flex: 0 0 auto;
   color: #3f3a32;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 .top-nav a:hover {

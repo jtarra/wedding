@@ -103,4 +103,5 @@ h1 {
 .note {
   max-width: 420px;
   line-height: 1.5;
+  text-align: center;
 }

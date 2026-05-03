@@ -20,15 +20,32 @@ body {
   border-bottom: 1px solid #ded3c3;
 }
 
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 12px 14px;
+  background: rgba(247, 239, 231, 0.88);
+  border-bottom: 1px solid var(--border);
+}
+
 .top-nav a {
   flex: 0 0 auto;
-  color: #3f3a32;
+  color: var(--brown);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 999px;
 }
 
 .top-nav a:hover {
-  text-decoration: underline;
+  border-color: var(--border);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .hero {
@@ -38,25 +55,50 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 24px;
+  padding: 32px 24px;
 }
 
-.eyebrow {
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+.hero-inner {
+  background: rgba(247, 239, 231, 0.72);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 42px 24px;
+  max-width: 520px;
+  width: 100%;
 }
 
 h1 {
-  font-size: clamp(3rem, 10vw, 7rem);
+  font-size: clamp(3.8rem, 17vw, 7rem);
+  line-height: 0.9;
   font-weight: normal;
   margin: 0;
 }
 
+.eyebrow {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  margin-bottom: 18px;
+}
+
 .date {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
+  margin-top: 22px;
+}
+
+.location {
+  font-size: 1rem;
+  margin-top: -4px;
 }
 
 .note {
   max-width: 420px;
   line-height: 1.5;
+}
+
+:root {
+  --pink: #e88d9d;
+  --cream: #f7efe7;
+  --brown: #3f3a32;
+  --border: #d9b8ad;
 }

@@ -136,15 +136,34 @@ h1 {
   position: absolute;
   bottom: 30px;
   left: 50%;
-  transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%);
 
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  animation: bounce 1.5s infinite;
+  animation: bounce 2.2s ease-in-out infinite;
+}
+.scroll-arrow::before,
+.scroll-arrow::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background: white;
+}
+
+.scroll-arrow::before {
+  transform: rotate(45deg);
+  left: 2px;
+}
+
+.scroll-arrow::after {
+  transform: rotate(-45deg);
+  right: 2px;
 }
 
 @keyframes bounce {

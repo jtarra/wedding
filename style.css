@@ -51,7 +51,7 @@ body {
   padding: 8px 14px;
   border-radius: 999px;
 
-  background: rgba(255, 255, 255, 0.5);   /* ← THIS is the key */
+  background: rgba(174, 193, 34, 0.9);e
   border: 1px solid var(--border);
 }
 

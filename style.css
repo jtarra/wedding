@@ -134,49 +134,51 @@ h1 {
 
 .scroll-arrow {
   position: absolute;
-  bottom: 30px;
+  bottom: 42px;
   left: 50%;
   transform: translateX(-50%);
 
-  width: 20px;
-  height: 20px;
+  width: 34px;
+  height: 18px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  animation: bounce 2.2s ease-in-out infinite;
+  animation: bounce 2.6s ease-in-out infinite;
 }
+
 .scroll-arrow::before,
 .scroll-arrow::after {
   content: "";
   position: absolute;
-  width: 12px;
+  top: 8px;
+
+  width: 22px;
   height: 2px;
   background: white;
+  border-radius: 999px;
 }
 
 .scroll-arrow::before {
-  transform: rotate(45deg);
-  left: 2px;
+  left: 0;
+  transform: rotate(35deg);
+  transform-origin: right center;
 }
 
 .scroll-arrow::after {
-  transform: rotate(-45deg);
-  right: 2px;
+  right: 0;
+  transform: rotate(-35deg);
+  transform-origin: left center;
 }
 
 @keyframes bounce {
   0%, 100% {
-    transform: translateY(0);
+    translate: 0 0;
     opacity: 0.9;
   }
+
   50% {
-    transform: translateY(8px);
-    opacity: 0.6;
+    translate: 0 8px;
+    opacity: 0.65;
   }
 }
-
 .content {
   padding: 60px 20px 80px;
   text-align: center;

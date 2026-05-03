@@ -4,97 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mia & Jonah</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #f7f1e8;
-      color: #3f3a32;
-      text-align: center;
-    }
-
-    .hero {
-      min-height: 100vh;
-      padding: 40px 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .eyebrow {
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      font-size: clamp(3rem, 10vw, 7rem);
-      font-weight: normal;
-      margin: 0;
-    }
-
-    .date {
-      font-size: 1.3rem;
-      margin: 18px 0 8px;
-    }
-
-    .location {
-      font-size: 1rem;
-      margin-bottom: 36px;
-    }
-
-    .nav-links {
-      display: grid;
-      gap: 14px;
-      width: min(100%, 360px);
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #3f3a32;
-      border: 1px solid #3f3a32;
-      padding: 14px 18px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.35);
-    }
-
-    .nav-links a:hover {
-      background: #3f3a32;
-      color: #f7f1e8;
-    }
-
-    .note {
-      margin-top: 34px;
-      font-size: 0.9rem;
-      max-width: 420px;
-      line-height: 1.5;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="details.html">Details</a>
+    <a href="travel.html">Travel</a>
+    <a href="rsvp.html">RSVP</a>
+    <a href="registry.html">Registry</a>
+  </nav>
+
   <main class="hero">
-    <div class="eyebrow">Save the Date</div>
-
+    <p class="eyebrow">Save the Date</p>
     <h1>Mia & Jonah</h1>
-
-    <div class="date">June 20, 2026</div>
-    <div class="location">Oahu, Hawaii</div>
-
-<nav class="top-nav">
-  <a href="index.html">Home</a>
-  <a href="details.html">Details</a>
-  <a href="travel.html">Travel</a>
-  <a href="rsvp.html">RSVP</a>
-  <a href="registry.html">Registry</a>
-</nav>
-
-    <p class="note">
-      More information coming soon. For now, mark your calendar — we can’t wait to celebrate with you.
-    </p>
+    <p class="date">June 20, 2026</p>
+    <p class="location">Oahu, Hawaii</p>
+    <p class="note">More details coming soon. We can’t wait to celebrate with you.</p>
   </main>
 </body>
 </html>

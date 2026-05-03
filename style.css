@@ -136,6 +136,7 @@ h1 {
   position: absolute;
   bottom: 42px;
   left: 50%;
+  z-index: 2;
   transform: translateX(-50%);
 
   width: 34px;

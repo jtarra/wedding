@@ -139,8 +139,8 @@ h1 {
   z-index: 2;
   transform: translateX(-50%);
 
-  width: 34px;
-  height: 18px;
+  width: 44px;
+  height: 22px;
 
   animation: bounce 2.6s ease-in-out infinite;
 }
@@ -149,7 +149,7 @@ h1 {
 .scroll-arrow::after {
   content: "";
   position: absolute;
-  top: 8px;
+  top: 10px;
 
   width: 22px;
   height: 2px;

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: #e88d9d;
+  background: #f7f1e8;
   color: #3f3a32;
 }
 
@@ -10,7 +10,7 @@ body {
   justify-content: center;
   gap: 24px;
   padding: 18px;
-  border-bottom: 1px solid #3f3a32;
+  border-bottom: 1px solid #ded3c3;
 }
 
 .top-nav a {

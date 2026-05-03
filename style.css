@@ -131,7 +131,11 @@ h1 {
 }
 
 .scroll-arrow {
-  margin-top: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
   font-size: 2rem;
   animation: bounce 1.5s infinite;
 }

@@ -1,5 +1,7 @@
 :root {
   --pink: #e88d9d;
+  --green: #aec122;
+  --orange: #eba734;
   --cream: #f7efe7;
   --brown: #3f3a32;
   --border: #d9b8ad;
@@ -66,7 +68,7 @@ body {
 }
 
 .hero-inner {
-  background: rgba(247, 239, 231, 0.72);
+  background: rgba(235, 167, 52, 0.72);
   border: 1px solid var(--border);
   border-radius: 28px;
   padding: 42px 24px;

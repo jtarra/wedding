@@ -94,3 +94,58 @@ h1 {
   line-height: 1.5;
   text-align: center;
 }
+.hero-image {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: clamp(2.5rem, 10vw, 5rem);
+  margin: 0;
+}
+
+.scroll-arrow {
+  margin-top: 20px;
+  font-size: 2rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.content {
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.invite {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.photo-gif {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+}

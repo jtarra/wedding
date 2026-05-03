@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: --cream;
+  background: var(--cream);
   color: #3f3a32;
 }
 

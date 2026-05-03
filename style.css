@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #f7f1e8;
+  color: #3f3a32;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 18px;
+  border-bottom: 1px solid #ded3c3;
+}
+
+.top-nav a {
+  color: #3f3a32;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.eyebrow {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(3rem, 10vw, 7rem);
+  font-weight: normal;
+  margin: 0;
+}
+
+.date {
+  font-size: 1.4rem;
+}
+
+.note {
+  max-width: 420px;
+  line-height: 1.5;
+}

@@ -1,7 +1,14 @@
+:root {
+  --pink: #e88d9d;
+  --cream: #f7efe7;
+  --brown: #3f3a32;
+  --border: #d9b8ad;
+}
+
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: #e88d9d;
+  background: --cream;
   color: #3f3a32;
 }
 
@@ -94,11 +101,4 @@ h1 {
 .note {
   max-width: 420px;
   line-height: 1.5;
-}
-
-:root {
-  --pink: #e88d9d;
-  --cream: #f7efe7;
-  --brown: #3f3a32;
-  --border: #d9b8ad;
 }

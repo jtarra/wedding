@@ -26,6 +26,7 @@ body {
   padding: 12px 14px;
   background: rgba(235, 167, 52, 0.72);
   border-bottom: 1px solid var(--border);
+  -webkit-overflow-scrolling: touch;
 }
 
 .top-nav a {
@@ -141,7 +142,7 @@ h1 {
 }
 
 .content {
-  padding: 60px 24px;
+  padding: 60px 20px 80px;
   text-align: center;
 }
 
@@ -155,4 +156,21 @@ h1 {
   width: 100%;
   max-width: 400px;
   border-radius: 16px;
+}
+@media (max-width: 500px) {
+  .hero-overlay h1 {
+    font-size: 2.2rem;
+  }
+
+  .scroll-arrow {
+    font-size: 1.6rem;
+  }
+
+  .invite {
+    font-size: 1.4rem;
+  }
+
+  .photo-gif {
+    max-width: 100%;
+  }
 }

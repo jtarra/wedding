@@ -186,8 +186,13 @@ h1 {
   }
 }
 .content {
-  padding: 60px 20px 80px;
+  margin: 60px 20px 80px;
+  padding: 42px 20px;
   text-align: center;
+
+  background: rgba(247, 239, 231, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 28px;
 }
 
 .invite {

@@ -24,7 +24,7 @@ body {
   overflow-x: auto;
   white-space: nowrap;
   padding: 12px 14px;
-  background: rgba(235, 167, 52, 0.72);
+  background: rgba(232, 141, 157, 0.72);
   border-bottom: 1px solid var(--border);
   -webkit-overflow-scrolling: touch;
 }
